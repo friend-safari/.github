@@ -17,6 +17,15 @@ Now I make romhacks of that game. I'm a software engineer by day.
 
 You might know me for the following pokémon, day/night lighting, Gen 6 icons, or key item wheels features I've written for `pokeemerald` [here](https://github.com/aarant/pokeemerald).
 
+## Q: Which projects will be maintained?
+
+**A**: Repositories I intend to have here, in decreasing priority:
+
+- [pokeemerald-expansion](https://github.com/rh-hideout/pokeemerald-expansion), the basis for a lot of hacks
+- [pokeemerald](https://github.com/pret/pokeemerald), the base PRET decomp
+- porymap & porytiles v1
+- other PRET repos & tools
+
 ## Q: So no AI is allowed at all?
 
 **A**: Yes, none whatsoever.
