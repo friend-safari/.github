@@ -20,7 +20,7 @@ maintain them for active development, and provide a standardized, opinionated ap
 
 Long ago I pioneered a new ACE method in Pokémon Emerald and made an [Any% TAS](https://tasvideos.org/4278M).
 
-Now I make romhacks of that game. I'm a software engineer by day.
+Now I make romhacks of that game. I'm also a software engineer by day, for now.
 
 You might know me for the following pokémon, day/night lighting, Gen 6 icons, or key item wheel features I've written for `pokeemerald` [here](https://github.com/aarant/pokeemerald).
 
@@ -35,19 +35,19 @@ You might know me for the following pokémon, day/night lighting, Gen 6 icons, o
 
 ## Q: So no AI is allowed at all?
 
-**A**: Yes, none whatsoever.
+**A**: To the greatest extent possible, yes.
 
-I believe that programming is a craft and that code can be art, that AI use cheapens the creative experience, inhibits learning, is socially and environmentally bad, etc.
+I believe that programming is a craft, that code can be art, that AI use cheapens the creative experience, inhibits learning, is socially and environmentally bad, etc.
 
-The purpose of this repo is to maintain codebases of these tools without AI, for those who wish to use them.
+The purpose of this repo is to maintain codebases of these tools without AI for those who wish to use them.
 
-## Q: But how is it possible to guarantee?
+## Q: But how can you guarantee that?
 
-**A**: Perfection is something to strive for, not achieve.
+**A**: In a sense, I can't. This project is inherently best-effort.
 
 Writing [software without AI](https://github.com/thatshubham/no-ai) is very achievable, however.
 
-The following should be true of code hosted here, to the best of our knowledge:
+The following should be true of code hosted here, **to the best of our knowledge**:
 
 - AI models / LLMs did not generate any line of code / text
     - This includes code that was directly signed off on in a commit by AI
@@ -58,6 +58,19 @@ The following should be true as well, but are impractical to enforce / verify:
 
 - AI models / LLMs were not consulted at all during the development process
 - All tools / software are AI-free / organic as well
+
+The following rules are applied, in order, when determining whether to merge a change from the upstream:
+
+1. Is the commit actually authored by an AI agent or LLM?
+    - If yes, authorship will be reset with the nearest human author.
+2. Is the change trivial / irreducible?
+    - Some fixes might only have one or a few valid implementations
+3. Was AI usage disclosed?
+    - If yes, we will develop an alternative implementation and revert the existing one
+4. Does the change show hallmarks / strong indications of being AI generated/assisted?
+    - This is somewhat subjective, but many LLMs use unique language that might be a giveaway.
+
+The result is a codebase that, for our best efforts, contains no or very minimal amounts of AI-generated code.
 
 ## Q: How can I contribute?
 
