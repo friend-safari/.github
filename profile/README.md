@@ -4,7 +4,7 @@
 
 | Name                                                                            | Upstream                                                           | Status                                                 |
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------ |
-| [pokeemerald-expansion](https://github.com/friend-safari/pokeemerald-expansion) | [rhh-hideout](https://github.com/rh-hideout/pokeemerald-expansion) | Started; up to **1.11.0**, needs more contributor info |
+| [pokeemerald-expansion](https://github.com/friend-safari/pokeemerald-expansion) | [rhh-hideout](https://github.com/rh-hideout/pokeemerald-expansion) | Started; up to **1.16.1**                              |
 | [pokeemerald](https://github.com/friend-safari/pokeemerald)                     | [pret](https://github.com/pret/pokeemerald)                        | Started; gathering contributor info                    |
 
 ## Q: What is this?
