@@ -18,6 +18,9 @@ This table is a living list of software / tools used in romhacking and their pol
 | [poryaaaa](https://github.com/huderlem/poryaaaa)            | Gen 3 audio synthesizer  | 'Made with Claude Code'                                                                                               |
 | [porytiles](https://github.com/grunt-lucas/porytiles)       | Tileset compiler         | 'legacy' has no AI, v2 [accepts AI contributions](https://github.com/grunt-lucas/porytiles/blob/develop/AI_POLICY.md) |
 | [tilemap-studio](https://github.com/Rangi42/tilemap-studio) | Tilemap editor           | Predates modern AI models                                                                                             |
+| [superfamiconv](https://github.com/optiroc/superfamiconv) | SNES graphics converter with GBA support           | Confirmed by maintainer to be AI Free                                                                                             |
+| [porypal](https://github.com/Loxed/porypal) | Specialized sprite/palette tool for the decomps           | [AI Assisted](https://lox.rombaut.org/project/porypal)                                                                                              |
+| [obstagoon](https://github.com/jtebbe/obstagoon) | Documentation generator for pokeemerald-expansion           | AI Assisted                                                                                              |
 
 ## Q: What is this?
 
@@ -62,8 +65,8 @@ Writing [software without AI](https://github.com/thatshubham/no-ai) is very achi
 The following should be true of code hosted here, **to the best of our knowledge**:
 
 - AI models / LLMs did not generate any line of code / text
-    - This includes code that was directly signed off on in a commit by AI
-    - This includes code generated elsewhere and copy-pasted, then committed by a person
+  - This includes code that was directly signed off on in a commit by AI
+  - This includes code generated elsewhere and copy-pasted, then committed by a person
 - AI models did not generate any graphics, audio, or any other kind of asset
 
 The following should be true as well, but are impractical to enforce / verify:
