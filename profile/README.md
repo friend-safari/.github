@@ -7,6 +7,18 @@
 | [pokeemerald-expansion](https://github.com/friend-safari/pokeemerald-expansion) | [rhh-hideout](https://github.com/rh-hideout/pokeemerald-expansion) | Started; up to **1.16.1**                              |
 | [pokeemerald](https://github.com/friend-safari/pokeemerald)                     | [pret](https://github.com/pret/pokeemerald)                        | Started; gathering contributor info                    |
 
+## Tools
+
+This table is a living list of software / tools used in romhacking and their policies around AI:
+
+| Name                                                        | Description              | Notes                                                                                                                 |
+| ----------------------------------------------------------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| [porymap](https://github.com/huderlem/porymap)              | Gen 3 Map Editor         | None apparent; human authored and maintained                                                                          |
+| [porydaw](https://github.com/huderlem/porydaw)              | Gen 3 music editor / DAW | 'Made with Claude Code'                                                                                               |
+| [poryaaaa](https://github.com/huderlem/poryaaaa)            | Gen 3 audio synthesizer  | 'Made with Claude Code'                                                                                               |
+| [porytiles](https://github.com/grunt-lucas/porytiles)       | Tileset compiler         | 'legacy' has no AI, v2 [accepts AI contributions](https://github.com/grunt-lucas/porytiles/blob/develop/AI_POLICY.md) |
+| [tilemap-studio](https://github.com/Rangi42/tilemap-studio) | Tilemap editor           | Predates modern AI models                                                                                             |
+
 ## Q: What is this?
 
 **A**: This is a GitHub organization for and by any person with an interest in [romhacking](https://en.wikipedia.org/wiki/ROM_hacking).
